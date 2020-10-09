@@ -160,7 +160,7 @@ let bathtubScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
 bathtubScope.pop(3);
 //This array should contain the variable names (as strings) accessible in the pond function.
 let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
-
+pondScope.splice(1,2);
 //////////////////PROBLEM 14////////////////////
 
 //Create a variable called age with your age assigned to you
